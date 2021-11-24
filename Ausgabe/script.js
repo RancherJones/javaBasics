@@ -17,7 +17,7 @@ document.write("<br>");
 
 let summe = 0;
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i <= 100; i++) {
    summe = summe + i;
    i = i + 1;   
 }
