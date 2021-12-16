@@ -24,14 +24,25 @@ function printTaskList() {
 
 }
 
+function markTask(element){
+  let index = element.attributes["data-index"].value;
+  let isChecked =  element.checked;
+  
+  tasks[index].isDone = isChecked;
+  printTaskList();
+}
+
 function getHtmlTasks() {
   let html = "";
+  let index = 0;
+
   tasks.forEach(element => {
     let checked = "";
     if (element.isDone) {
       checked = "checked";
     }
-    html += "<li><input type='checkbox'" + checked + "/>" + element.isDone + "-" + element.name + "-" + element.responsible + "</li>"
+    html += "<li><input onClick='markTask(this)' name= 'checkbox' data-index='" + index + "' type='checkbox'" + checked + "/>" + element.isDone + "-" + element.name + "-" + element.responsible + "-" + index + "</li>"
+    index++;
   });
   return html
 }
