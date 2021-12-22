@@ -11,10 +11,10 @@ export default class Timer {
 
     };
 
-    this.interval = null;
+    this.interval = 40;
     this.remainingSeconds = 90;
 
-    this.updateInterfaceTime();
+    this.updateInterfaceControls();
 
     this.el.control.addEventListener("click", () =>{
       // ToDO: add in the code
@@ -26,11 +26,23 @@ export default class Timer {
   }
 
   updateInterfaceTime() {
-    const minutes = Math.floor(this.remainigSeconds / 60);
+    const minutes = Math.floor(this.remainingSeconds / 60);
     const seconds = this.remainingSeconds % 60;
 
-    console.log(minutes, seconds);
+    this.el.minutes.textContent = minutes.toString().padStart(2, "0");
+    this.el.seconds.textContent = seconds.toString().padStart(2, "0");
+  }
 
+  updateInterfaceControls(){
+    if (this.interval === null){
+      this.el.control.innerHTNL = `<span>"start"</span>`;
+      this.el.control.classList.add("timer__btn--start");
+      this.el.control.classList.remove("timer__btn--stop");
+     }else{
+      this.el.control.innerHTNL = `<span>"stop"</span>`;
+      this.el.control.classList.add("timer__btn--stop");
+      this.el.control.classList.remove("timer__btn--start");
+     }
   }
 
   static getHTML() {
