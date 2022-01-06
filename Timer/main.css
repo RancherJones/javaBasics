@@ -1,5 +1,5 @@
 body{
-  background: #ddd;
+  background: white;
   margin: 24px;
 }
 
@@ -8,7 +8,7 @@ body{
   display: inline-block;
   padding: 24px 32px;
   border-radius: 30px;
-  background: white;
+  background: rgba(255, 229, 205, 0.315);
 }
 
 .timer__part{
@@ -23,14 +23,14 @@ body{
   border-radius: 50%;
   border: none;
   color: white;
-  background: lightcoral;
+  background: #da9fff;
   cursor:pointer;
 }
 
 .timer__btn--start{
-  background: forestgreen;
+  background: #a0be58;
 }
 
 .timer__btn--stop{
-  background: tomato;
+  background: #ff5f5f;
 }
