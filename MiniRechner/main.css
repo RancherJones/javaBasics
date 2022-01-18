@@ -1,0 +1,56 @@
+.content{
+  display: inline-block;
+  padding: 24px 32px;
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+}
+
+.button__design{
+  width: 150px;
+  height: 100px;
+  flex-direction: row;
+  margin-left: 16px;
+  border: none;
+  cursor:pointer;
+}
+
+.plus__btn{
+  width: 50px;
+  height: 50px;
+  margin-left: 16px;
+  border-radius: 50%;
+  border: none;
+  color: rgb(0, 0, 0);
+  background: #edd1ff;
+  cursor:pointer;
+}
+.minus__btn{
+  width: 50px;
+  height: 50px;
+  margin-left: 16px;
+  border-radius: 50%;
+  border: none;
+  color: rgb(0, 0, 0);
+  background: #edd1ff;
+  cursor:pointer;
+}
+.multiply__btn{
+  width: 50px;
+  height: 50px;
+  margin-left: 16px;
+  border-radius: 50%;
+  border: none;
+  color: rgb(0, 0, 0);
+  background: #edd1ff;
+  cursor:pointer;
+}
+.divide__btn{
+  width: 50px;
+  height: 50px;
+  margin-left: 16px;
+  border-radius: 50%;
+  border: none;
+  color: rgb(0, 0, 0);
+  background: #edd1ff;
+  cursor:pointer;
+}
