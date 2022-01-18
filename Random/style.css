@@ -1,0 +1,17 @@
+
+.box{
+  display: flex;
+}
+
+input{
+  padding: 30px;
+  width: 90%;
+}
+
+.generate__btn{
+  width: 100%;
+}
+
+.output{
+  justify-content: center;
+}
