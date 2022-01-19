@@ -10,8 +10,9 @@ input{
 
 .generate__btn{
   width: 100%;
+  
 }
 
-.output{
-  justify-content: center;
+#output{
+  text-align: center;
 }
