@@ -3,7 +3,7 @@ function registerEvents(){
     loadTodo();
   })
   document.getElementById("load__user__btn").addEventListener("click",function(){
-    alert("user")
+    loadUser();
   })
 }
 
@@ -16,6 +16,26 @@ function loadTodo(){
       let html = "";
       data.forEach(todo => {
         html += "<li>" + todo.title + "</li>"
+        
+      });
+
+      document.getElementById("todo__li").innerHTML = html;
+      console.log(html);
+    })
+    .catch(function (err){
+      console.log(err);
+    })
+}
+
+function loadUser(){
+  fetch('https://jsonplaceholder.typicode.com/users')
+    .then(function(response){
+      return response.json();
+    })
+    .then(function (data){
+      let html = "";
+      data.forEach(user => {
+        html += "<li>" + user.name + "</li>"
         
       });
 
