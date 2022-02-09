@@ -1,5 +1,9 @@
 
-fetch('https://api.football-data.org/v2/competitions/2002/teams',{
+let urlTeams = "https://api.football-data.org/v2/competitions/2002/teams";
+
+fetch(urlTeams,{
+  method:"GET",
+  
   headers: {
     "x-auth-token" : "819babc7902454f930c154272296d78"
   }

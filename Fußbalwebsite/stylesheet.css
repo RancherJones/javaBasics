@@ -1,0 +1,30 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  width: 1371px;
+  height: 38px;
+
+  background: #001431;
+}
+
+.btn__fortnite {
+  
+  width: 675px;
+  height: 337px;
+
+  background: url(fortnite-titel-fußball.jpg);
+}
+
+.heute{
+
+  position: fixed;
+  width: 675px;
+  height: 39px;
+
+  background: rgba(0, 20, 49, 0.7);
+}
