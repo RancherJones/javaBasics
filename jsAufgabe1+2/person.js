@@ -1,4 +1,4 @@
-export default class person{
+export class person{
   constructor(name){
     this.name = name;
   }
@@ -6,5 +6,9 @@ export default class person{
   sayHello(){
     console.log(this.name);
   }
+
+}
+
+export class animal{
 
 }
