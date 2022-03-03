@@ -1,5 +1,6 @@
 
 import './App.css';
+import ButtonRow from './components/buttonRow';
 import SuperButton from './components/SuperButton';
 
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <h1>Helo</h1>
       <SuperButton/>
+      <ButtonRow/>
     </div>
   );
 }
