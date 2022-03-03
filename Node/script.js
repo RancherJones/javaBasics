@@ -1,5 +1,4 @@
-console.log("hello");
+const sizeOf = require('image-size')
 
-for(i = 0; i < 10; i++){
-  console.log(i)
-}
+const dimensions = sizeOf('C:\\Users\\vinca\\OneDrive\\Bilder\\Darling.png')
+console.log(dimensions.width, dimensions.height)
