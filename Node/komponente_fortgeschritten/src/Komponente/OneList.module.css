@@ -1,0 +1,15 @@
+.onelist{
+  background-color: rgb(204, 218, 160);
+  margin: 1px;
+  margin-left: 	10px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.entry{
+  color: green;
+  margin-top: 15px;
+  list-style: none;
+}

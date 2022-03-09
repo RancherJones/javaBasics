@@ -1,12 +1,16 @@
 import './App.css';
-import List from './Komponente/list';
+import BigButton from './Komponente/BigButton';
+import ShortList from './Komponente/Shortlist';
+
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <List/>
+      <ShortList/>
+      <BigButton/>
     </div>
   );
 }

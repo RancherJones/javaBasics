@@ -1,0 +1,16 @@
+.heading{
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  border: none;
+  
+}
+
+.button__design{
+  color: rgb(78, 85, 68);
+  background-color:  rgb(212, 248, 212);
+  width: 100px;
+  height: 50px;
+  border-radius: 0%;
+
+}
