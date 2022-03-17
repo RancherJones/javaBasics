@@ -1,11 +1,17 @@
 .card{
   display: flex;
   flex-direction: column;
-  justify-content: left;
+
   background-color: rgb(233, 218, 201);
   width: 260px;
   height: 400px;
   margin-left: 10px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
 }
 
 

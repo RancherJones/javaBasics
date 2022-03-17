@@ -10,6 +10,6 @@ li{
   width: 150px;
   height: 50px;
   background-color: rgb(204, 218, 160);
-  
+  cursor: pointer;
 }
 
