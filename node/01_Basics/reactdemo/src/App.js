@@ -1,15 +1,16 @@
 
 import './App.css';
-import ButtonRow from './components/buttonRow';
-import SuperButton from './components/SuperButton';
+import Vote from './components/Vote';
+
 
 
 function App() {
   return (
     <div className="App">
       <h1>Helo</h1>
-      <SuperButton/>
-      <ButtonRow/>
+      <Vote candidate="Sepp" address="Dornbirn"/>
+      <Vote candidate="John" address="Hohenems"/>
+      <Vote candidate="Ella" address="Altacj"/>
     </div>
   );
 }
